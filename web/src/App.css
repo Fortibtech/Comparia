@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  min-height: 100vh;
 }
 
 .app-container.top-aligned {
@@ -31,10 +32,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 
 .top-aligned .search-section {
@@ -228,8 +231,13 @@ body {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .no-results {
@@ -345,18 +353,18 @@ body {
   .logo-large {
     font-size: 36px;
   }
-  
+
   .card-body {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  
+
   .product-image {
     width: 150px;
     height: 150px;
   }
-  
+
   .offers-row {
     justify-content: center;
   }
