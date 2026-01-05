@@ -35,7 +35,7 @@ const SEARCH_SUGGESTIONS = [
 ];
 
 // Mock API for demo
-const searchProducts = async (q: string): Promise<Product[]> => {
+const searchProducts = async (_q: string): Promise<Product[]> => {
   return new Promise(resolve => setTimeout(() => {
     resolve([
       {
