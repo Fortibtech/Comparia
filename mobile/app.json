@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Compario",
+    "slug": "compario-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo/green.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo/green.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo/green.png",
+        "backgroundColor": "#ffffff"
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/logo/green.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e485a5a-2497-477b-8ab9-4986fe8cb295"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8e485a5a-2497-477b-8ab9-4986fe8cb295"
+    }
+  }
+}
